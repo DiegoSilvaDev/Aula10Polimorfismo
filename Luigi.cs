@@ -4,11 +4,11 @@ namespace Polimorfismo
     {
         public override void Pular(){
 
-            // Manter as ações do método Pai.
+            // Aproveitando as ações da Super Classe ou Classe Pai.
             base.Pular();
 
-            // Acrescentando uma nova ação para o personagem.
-            System.Console.WriteLine("Luigi agora está pulando com uma altura 30% mais alta");
+            // Acrescentando novas ações para o personagem.
+            System.Console.WriteLine("O Luigi também pode pular 30% mais alto");
 
         }
     }
